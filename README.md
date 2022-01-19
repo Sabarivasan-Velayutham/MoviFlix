@@ -9,7 +9,7 @@ Website to know information about movies released worldwide
 
 </h3>
 
-<h3>Website link : 
-```
-  https://moviflix-sabari.netlify.app/
-```
+<h3>Website link : </h3>
+
+```https://moviflix-sabari.netlify.app/```
+
