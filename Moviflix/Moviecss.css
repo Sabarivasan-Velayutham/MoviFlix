@@ -1,0 +1,163 @@
+.topbar
+{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 10%;
+	background-color: darkblue;
+	text-align: center;
+	font-size: larger;
+	color: white;
+}
+
+#head-id
+{
+	margin-right: 125px;
+}
+
+#logo
+{
+	float: left;
+	width: 66px;
+	height: 53px;
+	margin-left: 18px;
+	margin-top: 6px;
+}
+
+#navigation 
+{
+	margin-left: 882px;
+	margin-top: -42px;
+}
+
+#navigation button
+{
+	border-color: black;
+	/*border-style: double;*/
+	width: 25%;
+	height: 40px;
+	color: black;
+	font-size: medium;
+	border-radius: 12px;
+	box-shadow: 0 8px 16px 0 red, 0 6px 20px 0 red;
+}
+
+#background 
+{
+	background-image: url('wallpaper.jpg');
+	background-position: top ;
+	
+  	animation: mymove 10s infinite;
+
+}
+
+@keyframes mymove 
+{
+	50% {background-position: bottom;}
+}
+
+.content
+{
+	text-align: center;
+	margin-top: 10%;
+}
+
+#input-box
+{
+	border-color: black;
+	border-style: double;
+	width: 30%;
+	height: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: medium;
+	border-radius: 20px;
+} 
+
+#button
+{
+	border-color: black;
+	width: 15%;
+	height: 40px;
+	color: black;
+	font-size: medium;
+	border-radius: 12px;
+}
+
+#button:hover 
+{
+	background-color: green;
+	color: white;
+}
+
+.searchbox
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 100px;
+	
+}
+
+#no-movie
+{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-left: 250px;
+}
+
+.movie-cards
+{
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	flex-direction: column; 
+
+ }
+
+#image
+{
+	margin-left: 10%;
+	margin-top: 10%;
+	width: 200px;
+  	height: 200px;
+}
+
+.card
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	background-color: rgb(24, 51, 59);
+	margin: 20px;
+	padding: 30px;
+	width: 700px;
+	border-radius: 40px;
+}
+
+.movie-title 
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 300px;
+	margin: 0px 200px;
+	margin-top: 30px;
+	margin-left: 125px;
+		
+}
+
+.movie-description
+{
+	margin-left: 13px;
+	height: 290px;
+	margin-top: 12px;
+}
+
+.value
+{
+	font-size: 15px;
+	width: 200px;
+}

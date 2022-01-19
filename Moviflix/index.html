@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Movie Picker</title>
+
+        <link rel="icon" href="movielogo.png" type="image/x-icon">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="Moviecss.css">
+
+    </head>
+
+    <body id="background">
+        <div class="topbar">
+            <img id='logo' src='movielogo.png' alt="logo">
+            <p id='head-id' >MOVIFLIX</p>
+            <div id="navigation">
+                <button id="nav-button" onclick="home()">HOME</button>
+                <button id="nav-button" onclick="about()">ABOUT</button>
+                <button id="nav-button" onclick="developer()">DEVELOPER</button>
+            </div> 
+        </div>
+
+        <div class="searchbox" >
+            <input type="text" placeholder='Movie Name ....' id="input-box" >
+            <button id="button" >Search</button>
+        </div>
+
+        <div class="movie-cards" >
+            <div id="display"> </div>
+        </div>
+        
+
+    </body>
+
+   
+    <script src='movies.js' type="text/javascript"></script>
+</html>
