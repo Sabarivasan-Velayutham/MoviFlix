@@ -13,3 +13,4 @@ Website to know information about movies released worldwide
 
 ```https://moviflix-sabari.netlify.app/```
 
+![image](https://github.com/Sabarivasan-Velayutham/MoviFlix/assets/84288319/c1963193-b92e-4fcf-8cf6-e5d44a9b5afb)
